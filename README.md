@@ -1,5 +1,13 @@
 # Anima
 
+> **⚠️ EARLY DEVELOPMENT — NOT FOR PUBLIC USE**
+>
+> Anima is an experimental prototype in active development. It is **not** a mental health tool, therapist, or crisis service. It should **not** be relied upon for emotional support, medical advice, or any form of clinical guidance.
+>
+> **Do not use this product if you are in distress or experiencing a mental health crisis.** If you need help, please contact a qualified professional or call a crisis hotline (e.g. 988 Suicide & Crisis Lifeline in the US).
+>
+> The repository owner assumes no responsibility for any unintended, harmful, or adverse outcomes resulting from the use of this software. By using or running this code, you acknowledge that it is an incomplete prototype with no guarantees of accuracy, safety, or reliability.
+
 An always-listening AI voice companion built with Expo/React Native. Anima detects emotional context in real-time and responds with adaptive voice, haptics, and visuals — all processed on-device for complete privacy.
 
 ## How It Works
@@ -97,3 +105,7 @@ constants/
 | frustrated | high | HEARTBEAT_FAST | 0.92x |
 | positive | any | PULSE_GENTLE | 1.0x |
 | neutral | — | NONE | 1.0x |
+
+## Disclaimer
+
+This software is provided "as is", without warranty of any kind. Anima is a technical prototype exploring emotion-aware AI interaction patterns. It is not a substitute for professional mental health care, therapy, or counseling. The developers and repository owner are not liable for any damages, emotional or otherwise, arising from the use of this software. This product is not yet advisable for use in any capacity and is shared purely for development and demonstration purposes.
