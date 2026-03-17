@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "EmpathAI",
+    "slug": "empathai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0A0F"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.empathai.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "EmpathAI needs microphone access to hear you and respond with empathy.",
+        "NSSpeechRecognitionUsageDescription": "EmpathAI uses your voice to understand how you feel."
+      }
+    },
+    "android": {
+      "package": "com.empathai.app",
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "EmpathAI needs microphone access to hear you."
+        }
+      ]
+    ],
+    "scheme": "empathai",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
